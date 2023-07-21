@@ -1,0 +1,171 @@
+.ново_име {
+  overflow: hidden;
+  width: 100%;
+  gap: 20px;
+}
+
+.video {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  transition: transform 1s ease;
+  gap: 20px;
+}
+.video-title{
+  color: blue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.video li {
+  flex: 0 0 calc(100% / 2);
+}
+
+.vide img {
+  width: 20%;
+  height: auto;
+}
+  .container {
+    background-image: url(US_Tour_Visual_Identity_New_Hero.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    height: 1500px; /* Променете височината според вашите нужди */
+    cursor: pointer;
+  }
+  
+  .title-container {
+    position: absolute;
+    bottom: 60px; 
+    left: 60px; 
+    margin: 0; 
+  }
+  .title-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 9999;
+  }
+  
+  #scrollToTopButton i {
+    margin-top: 17px;
+  }
+
+
+  .match-container {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .match-container button {
+    padding: 20px 30px;
+    font-size: 20px;
+    margin: 10px;
+    background: lightblue;
+    color: black;
+    border-radius: 6px;
+  }
+  
+  .match-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .match-list li {
+    display: inline;
+    margin: 5px;
+  }
+  .picture-match{
+    width: 40%;
+    height: auto;
+    transition: transform 0.8s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  }
+  .picture-match:hover{
+    transform: scale(1.1);
+  }
+  .match-container{
+    background-color: #008CC8;
+  }
+  .men-women {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .men-womens {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .men-womens li {
+    width: calc(100% / 2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .men-womenimg {
+    width: 100%;
+    height: 700px;
+    transition: left 0.3s ease;
+  }
+  button{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  button:hover{
+    transform: scale(1.2);
+  }
+  .center{
+    text-align: center;
+  }
+footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #034694;
+}
+.column{
+  flex: 1;
+  margin: 0 10px;
+}
+.column li{
+  list-style: none;
+}
+.column a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+.logo{
+  width: 100px;
+  height: auto;
+}
+.average li{
+  margin-top: 30px;
+}
+.last{
+  margin-top: 50px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="header-style.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="video.css">
+    <title>ChelseaFC</title>
+</head>
+<body>
+    <header class="head">
+        <div class="paragrahs">
+            <ul class="paragrahps-link">
+                <li><a href="https://www.chelseafc.com/en/chelsea-foundation"><p class="header-span">CHELSEA FOUNDATION</p></li>
+                <li><a href="https://www.chelseafc.com/en/no-to-hate"><p class="header-span">NO TO HATE</p></a></li>
+            </ul>
+        </div>
+            <ul class="paragrahps-link">
+                <li><a href="https://account.chelseafc.com/account/edit/?client_id=a48751f4-73e8-4c2c-90ba-6a71ff3fc91e&locale=en&_gl=1*1sl4uym*_ga*MjQyNDEwODkuMTY3NzA2ODYzOA..*_ga_0SXVVHPVKT*MTY4OTg1MzQxMi44LjEuMTY4OTg1NDkxMC4wLjAuMA.." rel="profile"><p class="header-span-profile">MY PROFILE</p></a></li>
+                <li><a href="https://account.chelseafc.com/account/edit/?client_id=a48751f4-73e8-4c2c-90ba-6a71ff3fc91e&locale=en&_gl=1*1sl4uym*_ga*MjQyNDEwODkuMTY3NzA2ODYzOA..*_ga_0SXVVHPVKT*MTY4OTg1MzQxMi44LjEuMTY4OTg1NDkxMC4wLjAuMA.." rel="profile"><img class="images" src="192805446_1385578951823564_3403803033196955408_n.jpg"></a></li>
+                <li><a href="https://www.nike.com/gb/" rel="Nike"><img class="images" src="swoosh-logo-black.jpg"></a></li>
+                <li><a href="https://www.trivago.com/?cip=1010725040101" rel="Trivago"><img class="images" src="Trivago-logo.jpg"></a></li>
+            </ul>
+    </header>
+    <div class="content">
+        <ul class="content-list">
+            <li><a href="index.html"><img class="chelsea-logo" src="chelsea.jpg"></a></li>
+            <li><a href="https://www.chelseafc.com/en/news/latest-news">LATEST</a></li>
+            <li><a href="https://www.chelseafc.com/en/video/watch/watch-discover">WATCH</a></li>
+            <li><a href="https://www.chelseafc.com/en/matches/mens-fixtures-and-results">MEN'S TEAM</a></li>
+            <li><a href="https://www.chelseafc.com/en/matches/womens-team-fixtures-and-results">WOMEN'S TEAM</a></li>
+            <li><a href="https://www.chelseafc.com/en/tickets/mens-tickets">TICKETS & HOSPITTALITY</a></li>
+            <li><a href="https://www.chelseamegastore.com/en/?_s=bm-FI-PSC-CFC-ShopNavEN" target="_blank">SHOP</a></li>
+            <li><a href="https://www.chelseafc.com/en"><i class="fas fa-search"></i></a></li>
+            <li><a class="menu" href="https://www.chelseafc.com/en"><i class="fa-solid fa-bars"><p class="small-more">More</p></i></a></li>
+        </ul>
+    </div>
+    <div class="slideshow">
+        <div class="slide">
+          <img src="newFile-1.jpg" alt="Nkunku">
+          <div class="text">Nkunku: This is my position</div>
+        </div>
+        <div class="slide">
+          <img src="_methode_times_prod_web_bin_0b8bd726-2641-11ee-9959-3da1f328ac3c.jpg" alt="Pochettino">
+          <div class="text">Pochettino targets improvement after first Chelsea victory</div>
+        </div>
+        <div class="slide">
+          <img src="Cech_Cudicini_PL_trophy_2006_85601890.jpg" alt="NewsChelsea">
+          <div class="text">Chelsea champions back in action in Game4Ukraine</div>
+        </div>
+    </div>
+      <div class="arrows">
+        <span class="arrow prev">⬅</span>
+        <span class="arrow next">➡</span>
+      </div>
+      <script src="js/myscript.js"></script>
+      <div class="videos-menu">
+        <h1 class="video-title">Latest Video ➡</h1>
+      </div>
+      <div class="ново_име">
+        <ul class="video">
+          <li><a href="https://www.chelseafc.com/en/video/highlights-chelsea-5-0-wrexham"><img class="vide" src="FULL_Chelsea_4-0_Wrexham_Florida_Cup_2023-24_v2.jpg"></a></li>
+          <li><a href="https://www.chelseafc.com/en/video/poch-on-his-first-blues-win"><img class="vide" src="16x9_Poch_post-Chelsea_5-0_Wrexham_Florida_Cup_2023-24_v1.jpg"></a></li>
+          <li><a href="https://www.chelseafc.com/en/video/nkunku-on-chelseas-5-0-win"><img class="vide" src="maxresdefault.jpg"></a></li>
+          <li><a href="https://www.chelseafc.com/en/video/full-match-chelsea-5-0-wrexham"><img class="vide" src="16x9_Chelsea_4-0_Wrexham_Florida_Cup_2023-24_v2.webp"></a></li>
+          <li><a href="https://www.chelseafc.com/en/video/extended-chelsea-5-0-wrexham"><img class="vide" src="mykhailo-mudryk-chelsea-premier-league_ce6l068rsfhw149xlssjlwiza.jpeg"></a></li>
+          <li><a href="https://www.chelseafc.com/en/video/training-ahead-of-wrexham"><img class="vide" src="1541078451.jpg"></a></li>
+        </ul>
+      </div>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const slideshow = document.querySelector('.ново_име');
+          const videoList = document.querySelector('.video');
+          const videos = document.querySelectorAll('.video li');
+      
+          let currentIndex = 0;
+      
+          function showNextSlide() {
+            currentIndex += 3;
+            if (currentIndex >= videos.length) {
+              currentIndex = 0;
+            }
+            updateSlide();
+          }
+      
+          function updateSlide() {
+            videoList.style.transform = `translateX(-${currentIndex * 100}%)`;
+          }
+      
+          setInterval(showNextSlide, 10000); // 20000 milliseconds = 20 seconds
+        });
+      </script>
+    <div class="container">
+       <h1 class="title-container"><a href="https://www.chelseafc.com/en/news/article/how-to-watch-the-chelsea-pre-season-tour-of-the-usa">How to watch Chelsea's USA tour</a></h1>
+    </div>
+    <a href="#" id="scrollToTopButton" title="Нагоре"><i class="fas fa-arrow-up"></i></a>
+    <script>
+      window.onscroll = function() { scrollFunction() };
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("scrollToTopButton").style.display = "block";
+  } else {
+    document.getElementById("scrollToTopButton").style.display = "none";
+  }
+}
+
+document.getElementById("scrollToTopButton").onclick = function() {
+  scrollToTop();
+};
+
+function scrollToTop() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+    <div class="match-container">
+      <button onclick="showMatches('men')">Men's</button>
+      <button onclick="showMatches('women')">Women's</button>
+      <ul class="match-list men">
+        <li><img class="picture-match" src="maxresdefault (1).jpg"></li>
+        <li><img class="picture-match" src="maxresdefault (2).jpg"></li>
+        <li><img class="picture-match" src="maxresdefault (3).jpg"></li>
+      </ul>
+      <ul class="match-list women" style="display: none;">
+        <li><img class="picture-match" src="maxresdefault (4).jpg"></li>
+        <li><img class="picture-match" src="maxresdefault (5).jpg"></li>
+        <li><img class="picture-match" src="maxresdefault (6).jpg"></li>
+      </ul>
+    </div>
+    <script src="js/myscript.js"></script>
+    <div class="men-women">
+      <ul class="men-womens">
+        <li><img class="men-womenimg" src="3189471-65344688-2560-1440.jpg"></li>
+        <li><img class="men-womenimg" src="TELEMMGLPICT000296065490_trans_NvBQzQNjv4Bqz0FILhSVaz4BDNEYZVm_83scu9DLydgRMsIYCvwcfZE.webp"></li>
+      </ul>
+    </div>
+    <div class="center">
+      <a href="https://www.nike.com/gb/" rel="Nike"><img class="images" src="swoosh-logo-black.jpg"></a>
+      <a href="https://www.trivago.com/?cip=1010725040101" rel="Trivago"><img class="images" src="Trivago-logo.jpg"></a>
+    </div>
+    <footer>
+      <div class="column">
+        <ul>
+          <li><img class="logo" src="0268e6c4403ebc36a505546c2f542879.jpg"></a></li>
+          <li><a href="">Chelsea Football Club</a></li>
+          <li><a href="">Stamford Bridge</a></li>
+          <li><a href="">Fullham Road</a></li>
+          <li><a href="">London</a></li>
+          <li><a href="">SW6 1HS</a></li>
+        </ul>
+      </div>
+      <div class="column">
+       <ul class="average">
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">Frequently Asked Questions</a></li>
+        <li><a href="">Junior Blues</a></li>
+       </ul>
+      </div>
+      <div class="column">
+        <ul class="last">
+          <li><a href="">Get unrivalled access to all things CHelsea with our official club app. The 5th Stand.</a></li>
+          <li><a href=""><img class="logo" src="1000_F_376662920_zqGXBodBGhHkUQEFbnHt1FuQSV7stYVi.jpg"></a></li>
+        </ul>
+      </div>
+    </footer>
+</body>
+</html>

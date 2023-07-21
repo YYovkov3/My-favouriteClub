@@ -1,0 +1,38 @@
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    overflow: hidden;
+}
+  
+.slide {
+    display: none;
+}
+  
+.slide img {
+    width: 100%;
+}
+  
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.arrows {
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 40px;
+}
+  
+.arrow {
+    cursor: pointer;
+    font-size: 30px;
+}
