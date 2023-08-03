@@ -169,3 +169,56 @@ footer{
 .last{
   margin-top: 50px;
 }
+
+ul.dropdown {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.dropdown li {
+  display: inline-block;
+  position: relative;
+}
+
+ul.dropdown li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Стилове за подменюто */
+ul.submenu {
+  display: none;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  background-color: whitesmoke;
+  padding: 0;
+}
+
+ul.submenu li {
+  display: block;
+}
+
+ul.submenu li a {
+  padding: 2px;
+  color: white;
+}
+
+
+ul.dropdown li:hover ul.submenu {
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+.submenu p{
+  color: black;
+}
+
+
+
+
